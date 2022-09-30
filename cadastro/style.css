@@ -1,0 +1,38 @@
+.caixa_cadastro{
+    background: white;
+    width: 400px;
+    height: 425px;
+    color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.caixa_cadastro h1 {
+    font-size: 30px;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.cadastro button{
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #e1374e;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+}
+
+.cadastro input{
+    padding: 10px 15px;
+    text-align: center;
+    border: solid 2px blue; 
+    border-radius: 10px;
+
+}
